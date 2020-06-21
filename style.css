@@ -31,7 +31,7 @@
     background-color: white;
     color: #00cc99;
     margin-left: 50%; 
-    border-radius: 80px;
+    border-radius: 75px;
 }
 
 .jumbotron h2 {
@@ -74,9 +74,6 @@
     text-decoration: none;
 }
 
-.gridImg p {
-    visibility: hidden;
-}
 .gridImg {
     
     margin: 40px;
