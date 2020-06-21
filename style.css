@@ -74,6 +74,7 @@
     text-decoration: none;
 }
 
+
 .gridImg {
     
     margin: 40px;
@@ -98,9 +99,9 @@
     text-decoration: underline;
 }
 
-.aboutUs, .posts, .comment {
+.aboutUs, .posts, .comment, .flicker {
     margin-top: 15px;
-    height: 250px;
+    height: 290px;
     width: 200px;
     font-size: 12px;
 }
@@ -131,4 +132,19 @@
     padding-right: 3px;
     font-size: 35px;
     color: #cac7c7;
+}
+
+.footer {
+    padding-top: 30px;
+    border-top: 1px solid #cac7c7;
+}
+
+.footer p {
+    color: #bbb9b9;
+    text-align: center;
+}
+
+.footer a {
+    color: #00cc99;
+    text-decoration: none;
 }

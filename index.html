@@ -9,6 +9,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -50,16 +51,20 @@
   <div class="container-fluid" style="background-color: #eeeded;">
     <div class="row">
       <div class="col-lg gridImg">
-        <img src="image/1.png">
+        <img src="image/1.png" onmouseover="showText1()" onmouseout="showText1()">
+        <p id="text1" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/2.png">
+        <img src="image/2.png" onmouseover="showText2()" onmouseout="showText2()">
+        <p id="text2" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/3.png">
+        <img src="image/3.png" onmouseover="showText3()" onmouseout="showText3()">
+        <p id="text3" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/4.png">
+        <img src="image/4.png" onmouseover="showText4()" onmouseout="showText4()">
+        <p id="text4" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
     </div>
   </div>
@@ -68,16 +73,20 @@
   <div class="container-fluid" style="background-color: #eeeded;" >
     <div class="row">
       <div class="col-lg gridImg">
-        <img src="image/5.png">
+        <img src="image/5.png" onmouseover="showText5()" onmouseout="showText5()">
+        <p id="text5" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/6.webp">
+      <img src="image/6.webp" onmouseover="showText6()" onmouseout="showText6()">
+        <p id="text6" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/7.webp">
+        <img src="image/7.webp" onmouseover="showText7()" onmouseout="showText7()">
+        <p id="text7" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/8.png">
+        <img src="image/8.png" onmouseover="showText8()" onmouseout="showText8()">
+        <p id="text8" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
     </div>
   </div>
@@ -85,27 +94,21 @@
   <div class="container-fluid lastRow" style="background-color: #eeeded;" >
     <div class="row">
       <div class="col-lg gridImg">
-        <img src="image/9.jpg">
+        <img src="image/9.jpg" onmouseover="showText9()" onmouseout="showText9()">
+        <p id="text9" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/10.png">
+        <img src="image/10.png" onmouseover="showText10()" onmouseout="showText10()">
+        <p id="text10" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/11.jpg">
+        <img src="image/11.jpg" onmouseover="showText11()" onmouseout="showText11()">
+        <p id="text11" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
       <div class="col-lg gridImg">
-        <img src="image/12.jpg">
+        <img src="image/12.jpg" onmouseover="showText12()" onmouseout="showText12()">
+        <p id="text12" style="visibility: hidden; padding: 10px; text-align: center; color: #aaa9a9;">This is some text</p>
       </div>
-    </div>
-  </div>
-
-  <!-- Social Tab headings -->
-  <div class="container socialArea">
-    <div class="row">
-      <div class="col-md">ABOUT US</div>
-      <div class="col-md">LATEST POSTS</div>
-      <div class="col-md">LATEST COMMENTS</div>
-      <div class="col-md">FLICKER PHOTOSTREAM</div>
     </div>
   </div>
 
@@ -113,6 +116,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md aboutUs">
+        <h6 style="text-decoration: underline; color: #bbbaba; margin-bottom: 20px;">ABOUT US</h6>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <p>Address</p>
         <p>500 Lorem Ipsum street</p>
@@ -124,6 +128,7 @@
 
       <!-- posts -->
       <div class="col-md posts">
+        <h6  style="text-decoration: underline; color: #bbbaba;  margin-bottom: 20px;">LATEST POSTS</h6>
         <p>It is a long established fact that a reader will be distracted</p>
         <p>20 June 2020</p>
         <p>passages of Lorem Ipsum</p>
@@ -134,6 +139,7 @@
 
       <!-- comments box -->
       <div class="col-md comment">
+        <h6  style="text-decoration: underline; color: #bbbaba; margin-bottom: 20px; ">LATEST COMMENTS</h6>
         <p class="">It is a long established fact that a reader looking at its layout.</p>
         <p>There are many variations of passages of Lorem Ipsum available.</p>
         <p>It is a long established fact that a reader looking at its layout.</p>
@@ -141,6 +147,7 @@
 
       <!-- Flicker Images box -->
       <div class="col-md flicker">
+        <h6 style="text-decoration: underline; color: #bbbaba; margin-bottom: 20px; ">FLICKER PHOTOSTREAM</h6>
         <div class="container-fluid" >
           <div class="row">
             <div class="col-lg flickerImg">
@@ -203,6 +210,10 @@
     <a href="https://www.facebook.com/umairkhalid6/"><i class="fab fa-facebook-square"></i></a>
     <i class="fab fa-google-plus-square"></i>
     <a href="https://www.linkedin.com/in/umair-janjua-219465165/"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <div class="footer">
+    <p>All rights reserved | template by <a href="https://github.com/UmairJanjua6">Umair Khalid</a></p>
   </div>
 </body>
 </html>
