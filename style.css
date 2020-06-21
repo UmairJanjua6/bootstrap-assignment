@@ -30,14 +30,14 @@
 .fas {
     background-color: white;
     color: #00cc99;
-    margin-left: 50%; 
+    margin-left: 49%; 
     border-radius: 75px;
 }
 
 .jumbotron h2 {
     margin: 0;
     padding: 0;
-    margin-left: 54%; 
+    margin-left: 53%; 
     color: white;
 }
 
@@ -45,12 +45,12 @@
     color: white;
     margin: 0;
     padding: 0;
-    margin-left: 53%; 
+    margin-left: 52%; 
 }
 
 .jumbotron h4 {
     margin-bottom: 0;
-    margin-left: 55%; 
+    margin-left: 54%; 
     padding: 0;
     color: white;
 }
@@ -58,7 +58,7 @@
 .jumbotron p {
     margin: 0;
     font-size: 40px;
-    margin-left: 46%; 
+    margin-left: 45%; 
     color: white;
 }
 
@@ -76,19 +76,18 @@
 
 
 .gridImg {
-    
     margin: 40px;
     padding: 0;
     height: 220px;
 }
 
 .gridImg img {
-    width: 270px;
+    width: 250px;
     height: 210px;
 }
 
 .gridImg img:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
+  -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
 }
@@ -99,9 +98,16 @@
     text-decoration: underline;
 }
 
-.aboutUs, .posts, .comment, .flicker {
+.posts, .comment, .flicker {
     margin-top: 15px;
-    height: 290px;
+    height: 250px;
+    width: 200px;
+    font-size: 12px;
+}
+
+.aboutUs {
+    margin-top: 15px;
+    height: 330px;
     width: 200px;
     font-size: 12px;
 }
@@ -119,22 +125,19 @@
     margin-top: 15px;
 }
 
-.social-icons {
-    padding-top: 10px;
-    padding-bottom: 50px;
-}
-.social-icons #twitter {
+#twitter {
     font-size: 35px;
     color: #1DA1F2;
 }
 
-.social-icons .fab {
+.fab {
     padding-right: 3px;
     font-size: 35px;
     color: #cac7c7;
 }
 
 .footer {
+    margin-top: 20px;
     padding-top: 30px;
     border-top: 1px solid #cac7c7;
 }
